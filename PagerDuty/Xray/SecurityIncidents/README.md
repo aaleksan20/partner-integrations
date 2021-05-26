@@ -34,7 +34,7 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 ![step1](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step1.png)
 2. Click on **Webhooks** in the **General** tile
 3. Create a **new webhook** for pagerduty
-![new webhook](new_webhook.png)
+![new webhook](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/new_webhook.png)
 4. Enter **Webhook Name**
 5. Enter **URL** (URL is the Events API endpoint from pagerduty) _ex: https://events.pagerduty.com/integration/<integration_id>/enqueue_
 6. Click **Save**
@@ -45,7 +45,7 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 ![step8](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step8.png)
 
 9. Next, create a **new rule** for the policy by clicking on the **New Rule** to the right
-![new rule](new_rule.png)
+![new rule](https://github.com/RjSH1/partner-integrations/blob/main/PagerDuty/Xray/SecurityIncidents/new_rule.png)
 10. Enter a **rule name**
 11. In the **criteria** section, select the **minimal severity** or the **cvss score**. Violations in Xray are filtered based on this criteria and sent to pagerduty
 12. In the **Automatic Actions** section, select **Trigger Webhook** checkbox and select the webhook that you created above for pagerduty
