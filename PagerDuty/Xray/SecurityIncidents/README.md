@@ -39,10 +39,10 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 5. Enter **URL** (URL is the Events API endpoint from pagerduty) _ex: https://events.pagerduty.com/integration/<integration_id>/enqueue_
 6. Click **Save**
 7. Navigate to **Security and Compliance** in JFrog Platform’s **Application** section and select **Policies**
-<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step7.png' width=“900"/>
+![step7](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step7.png)
 
 8. Next, specify the **policy name** and select **security** from the dropdown list below policy name
-![step8]<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step8.png' width=“900">
+![step8](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step8.png)
 
 9. Next, create a **new rule** for the policy by clicking on the **New Rule** to the right
 ![new rule](new_rule.png)
@@ -50,12 +50,12 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 11. In the **criteria** section, select the **minimal severity** or the **cvss score**. Violations in Xray are filtered based on this criteria and sent to pagerduty
 12. In the **Automatic Actions** section, select **Trigger Webhook** checkbox and select the webhook that you created above for pagerduty
 13. Click on **Save**
-![step13]<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step13.png' width=“900">
+![step13](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step13.png)
 
 14. A policy rule is created with the rule name sepecified in Step10
 15. Click **create** to create a policy with name specified in Step8
 16. Navigate to **watches** in the **Security and Compliance** section on the left
-![step16]<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step16.png' width=“900">
+![step16]('https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step16.png' width=“900")
 
 17. Create a **new watch** or edit an existing watch
 18. In order to create a new watch, click on the **New Watch** present at the top right corner of the screen
@@ -65,7 +65,7 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 22. Click **Save** to save the watch
 23. You’ll see the watch in the list of watches
 24. To manually trigger a watch, click on the **play button** and this will start sending any violations related to the watch to pagerduty
-![step24]<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step24.png' width=“900">
+![step24](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step24.png)
 
 # How to Uninstall
 1. Find the integration to delete by navigating to **Services** and selecting **Service Directory**
