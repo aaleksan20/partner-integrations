@@ -39,7 +39,7 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 5. Enter **URL** (URL is the Events API endpoint from pagerduty) _ex: https://events.pagerduty.com/integration/<integration_id>/enqueue_
 6. Click **Save**
 7. Navigate to **Security and Compliance** in JFrog Platform’s **Application** section and select **Policies**
-![step7]<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step7.png' width=“900">
+<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step7.png' width=“900"/>
 
 8. Next, specify the **policy name** and select **security** from the dropdown list below policy name
 ![step8]<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step8.png' width=“900">
