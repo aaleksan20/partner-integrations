@@ -55,7 +55,7 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 14. A policy rule is created with the rule name sepecified in Step10
 15. Click **create** to create a policy with name specified in Step8
 16. Navigate to **watches** in the **Security and Compliance** section on the left
-![step16]('https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step16.png' width=“900")
+![step16](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step16.png)
 
 17. Create a **new watch** or edit an existing watch
 18. In order to create a new watch, click on the **New Watch** present at the top right corner of the screen
