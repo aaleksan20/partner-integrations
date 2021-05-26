@@ -28,7 +28,7 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 3. Enter an **Integration Name** in the format `JFrog` and select  ***JFrog Xray + PagerDuty Notifications***  from the Integration Type menu.
 4. Click the **Add Integration** button to save your new integration. You will be redirected to the Integrations tab for your service.
 5. An **Integration Key** will be generated on this screen. Click on the integration name next to the integration key and copy the **integration URL** in a safe place as it will be used when you configure the integration with  ***JFrog Xray + PagerDuty Notifications***  in the next section.
-![integrations](integration.png)
+![integrations](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/integration.png)
 
 ## In JFrog Xray
 1. Navigate to **Xray Security & Compliance** in JFrog Platform’s **Administration** section and click on it
