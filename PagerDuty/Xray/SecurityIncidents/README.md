@@ -2,7 +2,7 @@
 * **Proactively manage security and compliance** across the software development and release lifecycle.  Receive early notifications within PagerDuty on vulnerabilities and compliance violations impacting artifacts, builds and components before releasing to production.      
 * **Customize notifications** Configure granular policies within JFrog Xray based on type of violation, severity, and receive notifications on repositories, builds or release bundles of interest.
 * **Granular Visibility** Receive a continuously updated list of impacted components and their associated dependencies as part of the notification payload sent by JFrog Xray to PagerDuty.  
-
+<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/new_webhook.png' width="600">
 # How it Works
 * Users will install the JFrog Xray integration application from within the PagerDuty Service Directory and receive a URL to setup the PagerDuty webhook within JFrog Xray
 * JFrog Xray will utilize the PagerDuty webhook trigger to send notifications to PagerDuty.  Users will be able to configure their rules and set up watch policies for repositories, builds and release bundles within JFrog Xray and associate these rules with the PagerDuty webhook trigger. 
