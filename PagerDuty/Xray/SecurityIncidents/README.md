@@ -31,7 +31,7 @@ Add JFrog Xray integration to an existing PagerDuty service or create a new serv
 ![integrations](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/integration.png)
 ## In JFrog Xray
 1. Navigate to **Xray Security & Compliance** in JFrog Platform’s **Administration** section and click on it
-<img src='https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step1.png' width=“900">
+![step1](https://raw.githubusercontent.com/RjSH1/partner-integrations/main/PagerDuty/Xray/SecurityIncidents/step1.png)
 2. Click on **Webhooks** in the **General** tile
 3. Create a **new webhook** for pagerduty
 ![new webhook](new_webhook.png)
